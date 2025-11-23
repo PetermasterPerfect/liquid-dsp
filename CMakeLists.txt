@@ -436,7 +436,7 @@ if(COVERAGE)
 endif(COVERAGE)
 
 
-target_link_libraries(${LIBNAME} c m)
+target_link_libraries(${LIBNAME} m)
 if (fftw3f_FOUND)
     target_link_libraries(${LIBNAME} fftw3f)
 endif()
